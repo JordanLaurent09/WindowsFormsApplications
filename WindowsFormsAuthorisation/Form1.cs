@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+
 
 namespace WindowsFormsAuthorisation
 {
@@ -15,6 +17,11 @@ namespace WindowsFormsAuthorisation
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void SighUpLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo { FileName = "https://klgd.cifra.digital/", UseShellExecute = true });
         }
     }
 }

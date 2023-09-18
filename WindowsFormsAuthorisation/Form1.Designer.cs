@@ -33,6 +33,8 @@ namespace WindowsFormsAuthorisation
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SighUpLink = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // textBox1
@@ -49,6 +51,7 @@ namespace WindowsFormsAuthorisation
             this.textBox2.Location = new System.Drawing.Point(12, 200);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(260, 50);
             this.textBox2.TabIndex = 1;
             // 
@@ -72,12 +75,35 @@ namespace WindowsFormsAuthorisation
             this.label2.TabIndex = 3;
             this.label2.Text = "Password";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.button1.Location = new System.Drawing.Point(172, 256);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 50);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "log in";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // SighUpLink
+            // 
+            this.SighUpLink.AutoSize = true;
+            this.SighUpLink.Location = new System.Drawing.Point(217, 320);
+            this.SighUpLink.Name = "SighUpLink";
+            this.SighUpLink.Size = new System.Drawing.Size(39, 13);
+            this.SighUpLink.TabIndex = 5;
+            this.SighUpLink.TabStop = true;
+            this.SighUpLink.Text = "Sign in";
+            this.SighUpLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.SighUpLink_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(284, 361);
+            this.Controls.Add(this.SighUpLink);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
@@ -95,6 +121,8 @@ namespace WindowsFormsAuthorisation
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.LinkLabel SighUpLink;
     }
 }
 
