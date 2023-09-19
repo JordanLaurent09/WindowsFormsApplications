@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager", "TaskManager\TaskManager.csproj", "{AB441874-9804-4489-9C03-9EE077118371}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddApplication", "EvenOddApplication\EvenOddApplication.csproj", "{874B729A-C031-4363-B188-9800CD54C1DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AB441874-9804-4489-9C03-9EE077118371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB441874-9804-4489-9C03-9EE077118371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB441874-9804-4489-9C03-9EE077118371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874B729A-C031-4363-B188-9800CD54C1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874B729A-C031-4363-B188-9800CD54C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874B729A-C031-4363-B188-9800CD54C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874B729A-C031-4363-B188-9800CD54C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
