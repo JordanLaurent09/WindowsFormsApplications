@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager", "TaskManager\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddApplication", "EvenOddApplication\EvenOddApplication.csproj", "{874B729A-C031-4363-B188-9800CD54C1DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInputPartitionApplication", "TextInputPartitionApplication\TextInputPartitionApplication.csproj", "{3A7E9423-C031-4A3F-B7C8-466D9AD1897A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{874B729A-C031-4363-B188-9800CD54C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874B729A-C031-4363-B188-9800CD54C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874B729A-C031-4363-B188-9800CD54C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7E9423-C031-4A3F-B7C8-466D9AD1897A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7E9423-C031-4A3F-B7C8-466D9AD1897A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7E9423-C031-4A3F-B7C8-466D9AD1897A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7E9423-C031-4A3F-B7C8-466D9AD1897A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
