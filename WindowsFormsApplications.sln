@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxWorkApplication", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePickerApplication", "DateTimePickerApplication\DateTimePickerApplication.csproj", "{2E76A672-25C5-4F30-AF9C-C70772B6AB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewApplication", "TreeViewApplication\TreeViewApplication.csproj", "{FAD6FCD2-288F-4F8A-B26B-B147772E9E6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2E76A672-25C5-4F30-AF9C-C70772B6AB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E76A672-25C5-4F30-AF9C-C70772B6AB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E76A672-25C5-4F30-AF9C-C70772B6AB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD6FCD2-288F-4F8A-B26B-B147772E9E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD6FCD2-288F-4F8A-B26B-B147772E9E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD6FCD2-288F-4F8A-B26B-B147772E9E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD6FCD2-288F-4F8A-B26B-B147772E9E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
