@@ -16,5 +16,26 @@ namespace TreeViewApplication
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TreeNode rootNode = new TreeNode(textBox1.Text);
+            treeView2.Nodes.Add(rootNode);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TreeNode rootNode = treeView2.SelectedNode;
+
+            TreeNode internalNode = new TreeNode(textBox1.Text);
+            rootNode.Nodes.Add(internalNode);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TreeNode rootNode = treeView2.SelectedNode;
+
+            treeView2.Nodes.Remove(rootNode);
+        }
     }
 }
